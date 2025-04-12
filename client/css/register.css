@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(120deg, #89f7fe, #66a6ff);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .auth-container {
+    background-color: #fff;
+    padding: 2.5rem 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.2);
+    width: 320px;
+    text-align: center;
+  }
+  
+  .auth-container h1 {
+    margin-bottom: 1.5rem;
+    font-size: 2.2rem;
+    color: #333;
+  }
+  
+  .auth-container input {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1.2rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    transition: 0.3s ease;
+  }
+  
+  .auth-container input:focus {
+    border-color: #66a6ff;
+    box-shadow: 0 0 0 2px rgba(102, 166, 255, 0.2);
+    outline: none;
+  }
+  
+  .auth-container button {
+    width: 100%;
+    padding: 0.8rem;
+    background: linear-gradient(to right, #66a6ff, #89f7fe);
+    color: #fff;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+  
+  .auth-container button:hover {
+    background: linear-gradient(to right, #57a3ff, #77e8fc);
+  }
+  
+  .login-link {
+    margin-top: 1rem;
+    font-size: 0.95rem;
+    color: #555;
+  }
+  
+  .login-link a {
+    color: #0066cc;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .login-link a:hover {
+    text-decoration: underline;
+  }
+  

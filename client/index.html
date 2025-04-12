@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Financial Time Machine</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <h1>FutureBack</h1>
+    <p>Your gateway to a financially secure future</p>
+  </header>
+
+  <nav>
+    <a href="#form-section">Start</a>
+    <a href="#insights-section">Insights</a>
+    <a href="#contact">Contact</a>
+    <a href="home.html">Home</a>
+  </nav>
+
+  <main>
+    <!-- Form Section -->
+    <section id="form-section">
+      <h2>Enter Your Financial Details</h2>
+      <form id="userForm">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        </div>
+        <div class="form-group">
+          <label for="income">Monthly Income</label>
+          <input type="number" id="income" name="income" placeholder="Enter your income" required>
+        </div>
+        <div class="form-group">
+          <label for="expenses">Monthly Expenses</label>
+          <input type="number" id="expenses" name="expenses" placeholder="Enter your expenses" required>
+        </div>
+        <div class="form-group">
+          <label for="investments">Investments</label>
+          <input type="number" id="investments" name="investments" placeholder="Enter investments (optional)">
+        </div>
+        <button type="submit" class="btn">Submit</button>
+      </form>
+    </section>
+
+    <!-- Financial Insights Section -->
+    <section id="insights-section" hidden>
+      <h2>Financial Insights</h2>
+      <div id="insights"></div>
+    </section>
+  </main>
+
+  <footer id="contact">
+    <p>&copy; 2025 Financial Time Machine. All rights reserved.</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
+
